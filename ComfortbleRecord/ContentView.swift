@@ -6,37 +6,34 @@
 //  Copyright © 2019 伊東直人. All rights reserved.
 //
 
+import Combine
 import SwiftUI
 
 struct ContentView: View {
-    @State private var selection = 0
- 
+    
+    @EnvironmentObject private var store: AppStore
+    
     var body: some View {
-        TabView(selection: $selection){
-            Text("First View")
-                .font(.title)
-                .tabItem {
-                    VStack {
-                        Image("first")
-                        Text("First")
-                    }
+        AnyView({ () -> AnyView in
+            if store.state.authState.loadingState == .initial {
+                return AnyView(Spacer())
+            } else {
+                if self.store.state.authState.user != nil {
+                    return AnyView(TabView())
+                } else {
+                    return AnyView(SignUpView())
                 }
-                .tag(0)
-            Text("Second View")
-                .font(.title)
-                .tabItem {
-                    VStack {
-                        Image("second")
-                        Text("Second")
-                    }
-                }
-                .tag(1)
-        }
+            }
+            }())
+            .onAppear { self.store.dispatch(AuthState.Action.subscribe()) }
+            .onDisappear { self.store.dispatch(AuthState.Action.unsubscribe()) }
     }
 }
 
+#if DEBUG
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(AppMain().store)
     }
 }
+#endif

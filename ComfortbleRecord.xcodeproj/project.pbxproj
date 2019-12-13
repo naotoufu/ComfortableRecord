@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EFE64F58239F98179391047 /* Pods_ComfortbleRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD1365576DEAD12C4FE574A /* Pods_ComfortbleRecord.framework */; };
 		9D86CFCE23A1EA1100A676F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D86CFCD23A1EA1100A676F8 /* AppDelegate.swift */; };
 		9D86CFD023A1EA1100A676F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D86CFCF23A1EA1100A676F8 /* SceneDelegate.swift */; };
 		9D86CFD323A1EA1100A676F8 /* ComfortbleRecord.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D86CFD123A1EA1100A676F8 /* ComfortbleRecord.xcdatamodeld */; };
@@ -16,6 +17,53 @@
 		9D86CFDD23A1EA1500A676F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D86CFDB23A1EA1500A676F8 /* LaunchScreen.storyboard */; };
 		9D86CFE823A1EA1500A676F8 /* ComfortbleRecordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D86CFE723A1EA1500A676F8 /* ComfortbleRecordTests.swift */; };
 		9D86CFF323A1EA1500A676F8 /* ComfortbleRecordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D86CFF223A1EA1500A676F8 /* ComfortbleRecordUITests.swift */; };
+		9D86D00123A3222A00A676F8 /* SignUpState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D86D00023A3222A00A676F8 /* SignUpState.swift */; };
+		9D86D01123A3293A00A676F8 /* IGListKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D00323A3293900A676F8 /* IGListKit.framework */; };
+		9D86D01223A3293A00A676F8 /* IGListKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D00323A3293900A676F8 /* IGListKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D86D01323A3293A00A676F8 /* KingfisherSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D00423A3293900A676F8 /* KingfisherSwiftUI.framework */; };
+		9D86D01423A3293A00A676F8 /* KingfisherSwiftUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D00423A3293900A676F8 /* KingfisherSwiftUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D86D01523A3293A00A676F8 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D00523A3293900A676F8 /* RxRelay.framework */; };
+		9D86D01623A3293A00A676F8 /* RxRelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D00523A3293900A676F8 /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D86D01723A3293A00A676F8 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D00623A3293900A676F8 /* RxCocoa.framework */; };
+		9D86D01823A3293A00A676F8 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D00623A3293900A676F8 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D86D01923A3293A00A676F8 /* ReSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D00723A3293900A676F8 /* ReSwift.framework */; };
+		9D86D01A23A3293A00A676F8 /* ReSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D00723A3293900A676F8 /* ReSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D86D01B23A3293A00A676F8 /* KeychainAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D00823A3293900A676F8 /* KeychainAccess.framework */; };
+		9D86D01C23A3293A00A676F8 /* KeychainAccess.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D00823A3293900A676F8 /* KeychainAccess.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D86D01D23A3293A00A676F8 /* RxOptional.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D00923A3293900A676F8 /* RxOptional.framework */; };
+		9D86D01E23A3293A00A676F8 /* RxOptional.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D00923A3293900A676F8 /* RxOptional.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D86D01F23A3293A00A676F8 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D00A23A3293900A676F8 /* Kingfisher.framework */; };
+		9D86D02023A3293A00A676F8 /* Kingfisher.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D00A23A3293900A676F8 /* Kingfisher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D86D02123A3293A00A676F8 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D00B23A3293900A676F8 /* SwiftyBeaver.framework */; };
+		9D86D02223A3293A00A676F8 /* SwiftyBeaver.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D00B23A3293900A676F8 /* SwiftyBeaver.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D86D02323A3293B00A676F8 /* IGListDiffKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D00C23A3293900A676F8 /* IGListDiffKit.framework */; };
+		9D86D02423A3293B00A676F8 /* IGListDiffKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D00C23A3293900A676F8 /* IGListDiffKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D86D02523A3293B00A676F8 /* MarkdownView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D00D23A3293900A676F8 /* MarkdownView.framework */; };
+		9D86D02623A3293B00A676F8 /* MarkdownView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D00D23A3293900A676F8 /* MarkdownView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D86D02723A3293B00A676F8 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D00E23A3293900A676F8 /* RxBlocking.framework */; };
+		9D86D02823A3293B00A676F8 /* RxBlocking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D00E23A3293900A676F8 /* RxBlocking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D86D02923A3293B00A676F8 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D00F23A3293900A676F8 /* RxSwift.framework */; };
+		9D86D02A23A3293B00A676F8 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D00F23A3293900A676F8 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D86D02B23A3293B00A676F8 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D01023A3293A00A676F8 /* RxTest.framework */; };
+		9D86D02C23A3293C00A676F8 /* RxTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D01023A3293A00A676F8 /* RxTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D86D02F23A32D4B00A676F8 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D86D02E23A32D4B00A676F8 /* AppState.swift */; };
+		9D86D03123A32D5C00A676F8 /* AuthState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D86D03023A32D5C00A676F8 /* AuthState.swift */; };
+		9D86D03423A33C7100A676F8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D86D03323A33C7100A676F8 /* Model.swift */; };
+		9D86D03623A33CB900A676F8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D86D03523A33CB800A676F8 /* User.swift */; };
+		9D86D03823A35DE700A676F8 /* AppThunkAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D86D03723A35DE700A676F8 /* AppThunkAction.swift */; };
+		9D86D03A23A35F8600A676F8 /* Auth+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D86D03923A35F8600A676F8 /* Auth+Combine.swift */; };
+		9D86D03F23A3695000A676F8 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D86D03E23A3695000A676F8 /* SignUpView.swift */; };
+		9D86D04223A37AA000A676F8 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D86D04123A37AA000A676F8 /* AppStore.swift */; };
+		9D86D04423A37BD400A676F8 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D86D04323A37BD400A676F8 /* LoadingView.swift */; };
+		9D86D04623A37C1100A676F8 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D86D04523A37C1100A676F8 /* AppMain.swift */; };
+		9D86D04823A37CCA00A676F8 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D86D04723A37CCA00A676F8 /* AppReducer.swift */; };
+		9D86D04B23A37DB700A676F8 /* LoggingMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D86D04A23A37DB700A676F8 /* LoggingMiddleware.swift */; };
+		9D86D04D23A3809A00A676F8 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D86D04C23A3809A00A676F8 /* TabView.swift */; };
+		9D86D04F23A3824700A676F8 /* ReSwiftThunk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D04E23A3824700A676F8 /* ReSwiftThunk.framework */; };
+		9D86D05023A3824800A676F8 /* ReSwiftThunk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86D04E23A3824700A676F8 /* ReSwiftThunk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D86D05323A3866600A676F8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D86D05223A3866600A676F8 /* GoogleService-Info.plist */; };
+		D15A09A5CEEA4B711D9AE5A2 /* Pods_ComfortbleRecordUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08CF5F679DD5BAB4EC0DAC6 /* Pods_ComfortbleRecordUITests.framework */; };
+		D5644906F3230C5B17108B37 /* Pods_ComfortbleRecordTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D807F80F279E5B879252E3C /* Pods_ComfortbleRecordTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +83,39 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9D86D02D23A3293C00A676F8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9D86D02C23A3293C00A676F8 /* RxTest.framework in Embed Frameworks */,
+				9D86D01E23A3293A00A676F8 /* RxOptional.framework in Embed Frameworks */,
+				9D86D01C23A3293A00A676F8 /* KeychainAccess.framework in Embed Frameworks */,
+				9D86D02423A3293B00A676F8 /* IGListDiffKit.framework in Embed Frameworks */,
+				9D86D02023A3293A00A676F8 /* Kingfisher.framework in Embed Frameworks */,
+				9D86D05023A3824800A676F8 /* ReSwiftThunk.framework in Embed Frameworks */,
+				9D86D01823A3293A00A676F8 /* RxCocoa.framework in Embed Frameworks */,
+				9D86D02223A3293A00A676F8 /* SwiftyBeaver.framework in Embed Frameworks */,
+				9D86D02A23A3293B00A676F8 /* RxSwift.framework in Embed Frameworks */,
+				9D86D02623A3293B00A676F8 /* MarkdownView.framework in Embed Frameworks */,
+				9D86D01423A3293A00A676F8 /* KingfisherSwiftUI.framework in Embed Frameworks */,
+				9D86D01223A3293A00A676F8 /* IGListKit.framework in Embed Frameworks */,
+				9D86D01A23A3293A00A676F8 /* ReSwift.framework in Embed Frameworks */,
+				9D86D01623A3293A00A676F8 /* RxRelay.framework in Embed Frameworks */,
+				9D86D02823A3293B00A676F8 /* RxBlocking.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1323CA96468CD13CCA4A5C8D /* Pods-ComfortbleRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComfortbleRecord.debug.xcconfig"; path = "Target Support Files/Pods-ComfortbleRecord/Pods-ComfortbleRecord.debug.xcconfig"; sourceTree = "<group>"; };
+		1D807F80F279E5B879252E3C /* Pods_ComfortbleRecordTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComfortbleRecordTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AAEDB403ACC9E25207C2C6D /* Pods-ComfortbleRecordTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComfortbleRecordTests.release.xcconfig"; path = "Target Support Files/Pods-ComfortbleRecordTests/Pods-ComfortbleRecordTests.release.xcconfig"; sourceTree = "<group>"; };
+		99FC56FC9119CA69A3147AF0 /* Pods-ComfortbleRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComfortbleRecord.release.xcconfig"; path = "Target Support Files/Pods-ComfortbleRecord/Pods-ComfortbleRecord.release.xcconfig"; sourceTree = "<group>"; };
 		9D86CFCA23A1EA1100A676F8 /* ComfortbleRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComfortbleRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D86CFCD23A1EA1100A676F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D86CFCF23A1EA1100A676F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +131,41 @@
 		9D86CFEE23A1EA1500A676F8 /* ComfortbleRecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComfortbleRecordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D86CFF223A1EA1500A676F8 /* ComfortbleRecordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComfortbleRecordUITests.swift; sourceTree = "<group>"; };
 		9D86CFF423A1EA1500A676F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D86D00023A3222A00A676F8 /* SignUpState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpState.swift; sourceTree = "<group>"; };
+		9D86D00323A3293900A676F8 /* IGListKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IGListKit.framework; path = Carthage/Build/iOS/IGListKit.framework; sourceTree = "<group>"; };
+		9D86D00423A3293900A676F8 /* KingfisherSwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KingfisherSwiftUI.framework; path = Carthage/Build/iOS/KingfisherSwiftUI.framework; sourceTree = "<group>"; };
+		9D86D00523A3293900A676F8 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
+		9D86D00623A3293900A676F8 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		9D86D00723A3293900A676F8 /* ReSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReSwift.framework; path = Carthage/Build/iOS/ReSwift.framework; sourceTree = "<group>"; };
+		9D86D00823A3293900A676F8 /* KeychainAccess.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainAccess.framework; path = Carthage/Build/iOS/KeychainAccess.framework; sourceTree = "<group>"; };
+		9D86D00923A3293900A676F8 /* RxOptional.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxOptional.framework; path = Carthage/Build/iOS/RxOptional.framework; sourceTree = "<group>"; };
+		9D86D00A23A3293900A676F8 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		9D86D00B23A3293900A676F8 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyBeaver.framework; path = Carthage/Build/iOS/SwiftyBeaver.framework; sourceTree = "<group>"; };
+		9D86D00C23A3293900A676F8 /* IGListDiffKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IGListDiffKit.framework; path = Carthage/Build/iOS/IGListDiffKit.framework; sourceTree = "<group>"; };
+		9D86D00D23A3293900A676F8 /* MarkdownView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MarkdownView.framework; path = Carthage/Build/iOS/MarkdownView.framework; sourceTree = "<group>"; };
+		9D86D00E23A3293900A676F8 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		9D86D00F23A3293900A676F8 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		9D86D01023A3293A00A676F8 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		9D86D02E23A32D4B00A676F8 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		9D86D03023A32D5C00A676F8 /* AuthState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthState.swift; sourceTree = "<group>"; };
+		9D86D03323A33C7100A676F8 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		9D86D03523A33CB800A676F8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9D86D03723A35DE700A676F8 /* AppThunkAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppThunkAction.swift; sourceTree = "<group>"; };
+		9D86D03923A35F8600A676F8 /* Auth+Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Auth+Combine.swift"; sourceTree = "<group>"; };
+		9D86D03E23A3695000A676F8 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		9D86D04123A37AA000A676F8 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		9D86D04323A37BD400A676F8 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		9D86D04523A37C1100A676F8 /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
+		9D86D04723A37CCA00A676F8 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		9D86D04A23A37DB700A676F8 /* LoggingMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingMiddleware.swift; sourceTree = "<group>"; };
+		9D86D04C23A3809A00A676F8 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		9D86D04E23A3824700A676F8 /* ReSwiftThunk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReSwiftThunk.framework; path = Carthage/Build/iOS/ReSwiftThunk.framework; sourceTree = "<group>"; };
+		9D86D05223A3866600A676F8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B8BFBB67189F73719206734C /* Pods-ComfortbleRecordUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComfortbleRecordUITests.debug.xcconfig"; path = "Target Support Files/Pods-ComfortbleRecordUITests/Pods-ComfortbleRecordUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C38F85E7D361D4F7BA25319D /* Pods-ComfortbleRecordUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComfortbleRecordUITests.release.xcconfig"; path = "Target Support Files/Pods-ComfortbleRecordUITests/Pods-ComfortbleRecordUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D08CF5F679DD5BAB4EC0DAC6 /* Pods_ComfortbleRecordUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComfortbleRecordUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD1365576DEAD12C4FE574A /* Pods_ComfortbleRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComfortbleRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9624698C151CD1E095C8E86 /* Pods-ComfortbleRecordTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComfortbleRecordTests.debug.xcconfig"; path = "Target Support Files/Pods-ComfortbleRecordTests/Pods-ComfortbleRecordTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +173,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D86D04F23A3824700A676F8 /* ReSwiftThunk.framework in Frameworks */,
+				9D86D02B23A3293B00A676F8 /* RxTest.framework in Frameworks */,
+				9D86D01D23A3293A00A676F8 /* RxOptional.framework in Frameworks */,
+				9D86D01B23A3293A00A676F8 /* KeychainAccess.framework in Frameworks */,
+				9D86D02323A3293B00A676F8 /* IGListDiffKit.framework in Frameworks */,
+				9D86D01F23A3293A00A676F8 /* Kingfisher.framework in Frameworks */,
+				9D86D01723A3293A00A676F8 /* RxCocoa.framework in Frameworks */,
+				9D86D02123A3293A00A676F8 /* SwiftyBeaver.framework in Frameworks */,
+				9D86D02923A3293B00A676F8 /* RxSwift.framework in Frameworks */,
+				9D86D02523A3293B00A676F8 /* MarkdownView.framework in Frameworks */,
+				9D86D01323A3293A00A676F8 /* KingfisherSwiftUI.framework in Frameworks */,
+				9D86D01123A3293A00A676F8 /* IGListKit.framework in Frameworks */,
+				9D86D01923A3293A00A676F8 /* ReSwift.framework in Frameworks */,
+				9D86D01523A3293A00A676F8 /* RxRelay.framework in Frameworks */,
+				9D86D02723A3293B00A676F8 /* RxBlocking.framework in Frameworks */,
+				4EFE64F58239F98179391047 /* Pods_ComfortbleRecord.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +196,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5644906F3230C5B17108B37 /* Pods_ComfortbleRecordTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,19 +204,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D15A09A5CEEA4B711D9AE5A2 /* Pods_ComfortbleRecordUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		240AF3168369DC5A118EE093 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1323CA96468CD13CCA4A5C8D /* Pods-ComfortbleRecord.debug.xcconfig */,
+				99FC56FC9119CA69A3147AF0 /* Pods-ComfortbleRecord.release.xcconfig */,
+				E9624698C151CD1E095C8E86 /* Pods-ComfortbleRecordTests.debug.xcconfig */,
+				5AAEDB403ACC9E25207C2C6D /* Pods-ComfortbleRecordTests.release.xcconfig */,
+				B8BFBB67189F73719206734C /* Pods-ComfortbleRecordUITests.debug.xcconfig */,
+				C38F85E7D361D4F7BA25319D /* Pods-ComfortbleRecordUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9D86CFC123A1EA1100A676F8 = {
 			isa = PBXGroup;
 			children = (
+				9D86D05223A3866600A676F8 /* GoogleService-Info.plist */,
 				9D86CFCC23A1EA1100A676F8 /* ComfortbleRecord */,
 				9D86CFE623A1EA1500A676F8 /* ComfortbleRecordTests */,
 				9D86CFF123A1EA1500A676F8 /* ComfortbleRecordUITests */,
 				9D86CFCB23A1EA1100A676F8 /* Products */,
+				9D86D00223A3293900A676F8 /* Frameworks */,
+				240AF3168369DC5A118EE093 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,9 +250,17 @@
 		9D86CFCC23A1EA1100A676F8 /* ComfortbleRecord */ = {
 			isa = PBXGroup;
 			children = (
+				9D86D04923A37DA100A676F8 /* Middleware */,
+				9D86D04023A37A9200A676F8 /* Main */,
+				9D86D03D23A3694500A676F8 /* View */,
+				9D86D03B23A365CB00A676F8 /* State */,
 				9D86CFCD23A1EA1100A676F8 /* AppDelegate.swift */,
+				9D86D03C23A365EF00A676F8 /* Reducer */,
 				9D86CFCF23A1EA1100A676F8 /* SceneDelegate.swift */,
+				9D86D04C23A3809A00A676F8 /* TabView.swift */,
 				9D86CFD423A1EA1100A676F8 /* ContentView.swift */,
+				9D86D03223A33C6100A676F8 /* Firebase */,
+				9D86D03923A35F8600A676F8 /* Auth+Combine.swift */,
 				9D86CFD623A1EA1500A676F8 /* Assets.xcassets */,
 				9D86CFDB23A1EA1500A676F8 /* LaunchScreen.storyboard */,
 				9D86CFDE23A1EA1500A676F8 /* Info.plist */,
@@ -139,6 +296,85 @@
 			path = ComfortbleRecordUITests;
 			sourceTree = "<group>";
 		};
+		9D86D00223A3293900A676F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D86D04E23A3824700A676F8 /* ReSwiftThunk.framework */,
+				9D86D00C23A3293900A676F8 /* IGListDiffKit.framework */,
+				9D86D00323A3293900A676F8 /* IGListKit.framework */,
+				9D86D00823A3293900A676F8 /* KeychainAccess.framework */,
+				9D86D00A23A3293900A676F8 /* Kingfisher.framework */,
+				9D86D00423A3293900A676F8 /* KingfisherSwiftUI.framework */,
+				9D86D00D23A3293900A676F8 /* MarkdownView.framework */,
+				9D86D00723A3293900A676F8 /* ReSwift.framework */,
+				9D86D00E23A3293900A676F8 /* RxBlocking.framework */,
+				9D86D00623A3293900A676F8 /* RxCocoa.framework */,
+				9D86D00923A3293900A676F8 /* RxOptional.framework */,
+				9D86D00523A3293900A676F8 /* RxRelay.framework */,
+				9D86D00F23A3293900A676F8 /* RxSwift.framework */,
+				9D86D01023A3293A00A676F8 /* RxTest.framework */,
+				9D86D00B23A3293900A676F8 /* SwiftyBeaver.framework */,
+				DDD1365576DEAD12C4FE574A /* Pods_ComfortbleRecord.framework */,
+				1D807F80F279E5B879252E3C /* Pods_ComfortbleRecordTests.framework */,
+				D08CF5F679DD5BAB4EC0DAC6 /* Pods_ComfortbleRecordUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D86D03223A33C6100A676F8 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				9D86D03323A33C7100A676F8 /* Model.swift */,
+				9D86D03523A33CB800A676F8 /* User.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		9D86D03B23A365CB00A676F8 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				9D86D00023A3222A00A676F8 /* SignUpState.swift */,
+				9D86D02E23A32D4B00A676F8 /* AppState.swift */,
+				9D86D03023A32D5C00A676F8 /* AuthState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		9D86D03C23A365EF00A676F8 /* Reducer */ = {
+			isa = PBXGroup;
+			children = (
+				9D86D04723A37CCA00A676F8 /* AppReducer.swift */,
+			);
+			path = Reducer;
+			sourceTree = "<group>";
+		};
+		9D86D03D23A3694500A676F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9D86D03E23A3695000A676F8 /* SignUpView.swift */,
+				9D86D04323A37BD400A676F8 /* LoadingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9D86D04023A37A9200A676F8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9D86D04123A37AA000A676F8 /* AppStore.swift */,
+				9D86D04523A37C1100A676F8 /* AppMain.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9D86D04923A37DA100A676F8 /* Middleware */ = {
+			isa = PBXGroup;
+			children = (
+				9D86D03723A35DE700A676F8 /* AppThunkAction.swift */,
+				9D86D04A23A37DB700A676F8 /* LoggingMiddleware.swift */,
+			);
+			path = Middleware;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +382,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D86CFF723A1EA1500A676F8 /* Build configuration list for PBXNativeTarget "ComfortbleRecord" */;
 			buildPhases = (
+				6D15B2D5E3FAD24E8576A7BB /* [CP] Check Pods Manifest.lock */,
 				9D86CFC623A1EA1100A676F8 /* Sources */,
 				9D86CFC723A1EA1100A676F8 /* Frameworks */,
 				9D86CFC823A1EA1100A676F8 /* Resources */,
+				9D86D02D23A3293C00A676F8 /* Embed Frameworks */,
+				D8711286CED41310B64111EF /* [CP] Embed Pods Frameworks */,
+				9D86D05123A3837B00A676F8 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -163,6 +403,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D86CFFA23A1EA1500A676F8 /* Build configuration list for PBXNativeTarget "ComfortbleRecordTests" */;
 			buildPhases = (
+				E93255EBA42450552505CEE0 /* [CP] Check Pods Manifest.lock */,
 				9D86CFDF23A1EA1500A676F8 /* Sources */,
 				9D86CFE023A1EA1500A676F8 /* Frameworks */,
 				9D86CFE123A1EA1500A676F8 /* Resources */,
@@ -181,6 +422,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D86CFFD23A1EA1500A676F8 /* Build configuration list for PBXNativeTarget "ComfortbleRecordUITests" */;
 			buildPhases = (
+				773CFB0058F41191276678ED /* [CP] Check Pods Manifest.lock */,
 				9D86CFEA23A1EA1500A676F8 /* Sources */,
 				9D86CFEB23A1EA1500A676F8 /* Frameworks */,
 				9D86CFEC23A1EA1500A676F8 /* Resources */,
@@ -245,6 +487,7 @@
 			files = (
 				9D86CFDD23A1EA1500A676F8 /* LaunchScreen.storyboard in Resources */,
 				9D86CFDA23A1EA1500A676F8 /* Preview Assets.xcassets in Resources */,
+				9D86D05323A3866600A676F8 /* GoogleService-Info.plist in Resources */,
 				9D86CFD723A1EA1500A676F8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +508,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6D15B2D5E3FAD24E8576A7BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ComfortbleRecord-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		773CFB0058F41191276678ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ComfortbleRecordUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D86D05123A3837B00A676F8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+		D8711286CED41310B64111EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ComfortbleRecord/Pods-ComfortbleRecord-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/abseil/absl.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/absl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ComfortbleRecord/Pods-ComfortbleRecord-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E93255EBA42450552505CEE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ComfortbleRecordTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9D86CFC623A1EA1100A676F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -272,8 +637,22 @@
 			files = (
 				9D86CFCE23A1EA1100A676F8 /* AppDelegate.swift in Sources */,
 				9D86CFD323A1EA1100A676F8 /* ComfortbleRecord.xcdatamodeld in Sources */,
+				9D86D03823A35DE700A676F8 /* AppThunkAction.swift in Sources */,
+				9D86D04B23A37DB700A676F8 /* LoggingMiddleware.swift in Sources */,
+				9D86D00123A3222A00A676F8 /* SignUpState.swift in Sources */,
+				9D86D04623A37C1100A676F8 /* AppMain.swift in Sources */,
+				9D86D03F23A3695000A676F8 /* SignUpView.swift in Sources */,
+				9D86D04823A37CCA00A676F8 /* AppReducer.swift in Sources */,
+				9D86D04423A37BD400A676F8 /* LoadingView.swift in Sources */,
+				9D86D03A23A35F8600A676F8 /* Auth+Combine.swift in Sources */,
+				9D86D02F23A32D4B00A676F8 /* AppState.swift in Sources */,
 				9D86CFD523A1EA1100A676F8 /* ContentView.swift in Sources */,
+				9D86D04223A37AA000A676F8 /* AppStore.swift in Sources */,
+				9D86D03623A33CB900A676F8 /* User.swift in Sources */,
 				9D86CFD023A1EA1100A676F8 /* SceneDelegate.swift in Sources */,
+				9D86D03123A32D5C00A676F8 /* AuthState.swift in Sources */,
+				9D86D04D23A3809A00A676F8 /* TabView.swift in Sources */,
+				9D86D03423A33C7100A676F8 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,18 +815,23 @@
 		};
 		9D86CFF823A1EA1500A676F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1323CA96468CD13CCA4A5C8D /* Pods-ComfortbleRecord.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ComfortbleRecord/Preview Content\"";
 				DEVELOPMENT_TEAM = Z7TTVB9977;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ComfortbleRecord/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = yanaoto.ComfortbleRecord;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.Comfortble.Record;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -456,18 +840,23 @@
 		};
 		9D86CFF923A1EA1500A676F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99FC56FC9119CA69A3147AF0 /* Pods-ComfortbleRecord.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ComfortbleRecord/Preview Content\"";
 				DEVELOPMENT_TEAM = Z7TTVB9977;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ComfortbleRecord/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = yanaoto.ComfortbleRecord;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.Comfortble.Record;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -476,6 +865,7 @@
 		};
 		9D86CFFB23A1EA1500A676F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9624698C151CD1E095C8E86 /* Pods-ComfortbleRecordTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +888,7 @@
 		};
 		9D86CFFC23A1EA1500A676F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AAEDB403ACC9E25207C2C6D /* Pods-ComfortbleRecordTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -520,6 +911,7 @@
 		};
 		9D86CFFE23A1EA1500A676F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8BFBB67189F73719206734C /* Pods-ComfortbleRecordUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -540,6 +932,7 @@
 		};
 		9D86CFFF23A1EA1500A676F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C38F85E7D361D4F7BA25319D /* Pods-ComfortbleRecordUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
