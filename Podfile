@@ -5,10 +5,10 @@
 pod 'SwiftFormat/CLI'
 pod 'SwiftLint'
 
-target 'ComfortbleRecord' do
+target 'ComfortableRecord' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
 
-  # Pods for ComfortbleRecord
+  # Pods for ComfortableRecord
   use_frameworks!
   # Firebase
   pod 'Firebase/Core'
@@ -19,13 +19,14 @@ target 'ComfortbleRecord' do
   pod 'Firebase/Analytics'
   # add pods for any other desired Firebase products
   # https://firebase.google.com/docs/ios/setup#available-pods
+  pod 'TimelineTableViewCell'
 
-  target 'ComfortbleRecordTests' do
+  target 'ComfortableRecordTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'ComfortbleRecordUITests' do
+  target 'ComfortableRecordUITests' do
     inherit! :search_paths
     # Pods for testing
   end

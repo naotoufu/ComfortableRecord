@@ -164,6 +164,8 @@ PODS:
   - BoringSSL-GRPC/Implementation (0.0.3):
     - BoringSSL-GRPC/Interface (= 0.0.3)
   - BoringSSL-GRPC/Interface (0.0.3)
+  - Firebase/Analytics (6.13.0):
+    - Firebase/Core
   - Firebase/Auth (6.13.0):
     - Firebase/CoreOnly
     - FirebaseAuth (~> 6.4.0)
@@ -280,17 +282,20 @@ PODS:
   - nanopb/encode (0.3.9011)
   - SwiftFormat/CLI (0.42.0)
   - SwiftLint (0.38.0)
+  - TimelineTableViewCell (2.2.0)
 
 DEPENDENCIES:
+  - Firebase/Analytics
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Firestore
   - FireSnapshot
   - SwiftFormat/CLI
   - SwiftLint
+  - TimelineTableViewCell
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - abseil
     - BoringSSL-GRPC
     - Firebase
@@ -315,6 +320,7 @@ SPEC REPOS:
     - nanopb
     - SwiftFormat
     - SwiftLint
+    - TimelineTableViewCell
 
 SPEC CHECKSUMS:
   abseil: 18063d773f5366ff8736a050fe035a28f635fd27
@@ -341,7 +347,8 @@ SPEC CHECKSUMS:
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
   SwiftFormat: 5faa819600268dfaa5c19f1359730883db151678
   SwiftLint: 4105f061f9812b214568b736dab580ab2c73a582
+  TimelineTableViewCell: 8835f2f9aad7648670e09c85a615bcd071826b44
 
-PODFILE CHECKSUM: dbb5ecdd18fa211d9eb9bc0f2f9cd212b3044e3f
+PODFILE CHECKSUM: e91ee06135e39ae6a743e6dc84e5edb12f52187e
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.8.4
